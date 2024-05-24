@@ -7,7 +7,6 @@ PlayState ps=PlayState.PLAY;
 void setup() {
   size(320, 240);
   sf=new SoundFile(this, "sample.wav");
-  sf.loop();
   ps=PlayState.PLAY;
 }
 void keyPressed() {
